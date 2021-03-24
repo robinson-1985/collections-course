@@ -8,3 +8,9 @@ one/digitalinnovation/list/queue/ExemploLinkedList.java
  one.digitalinnovation.queue.ExemploLinkedList
 one/digitalinnovation/list/queue/ExemploLinkedList2.java
  one.digitalinnovation.list.queue.ExemploLinkedList2
+one/digitalinnovation/list/set/ExemploHashSet.java
+ one.digitalinnovation.list.set.ExemploHashSet
+one/digitalinnovation/list/set/ExemploTreeSet.java
+ one.digitalinnovation.list.set.ExemploTreeSet
+one/digitalinnovation/list/set/ExemploLinkedHashSet.java
+ one.digitalinnovation.list.set.ExemploLinkedHashSet
