@@ -20,3 +20,9 @@ one/digitalinnovation/list/maps/ExemploTreeMap.java
  one.digitalinnovation.list.maps.ExemploTreeMap
 one/digitalinnovation/list/maps/ExemploHashMap.java
  one.digitalinnovation.list.maps.ExemploHashMap
+one/digitalinnovation/list/comparators/EstudanteOrdemIdadeReversaComparator.java
+ one.digitalinnovation.list.comparators.EstudanteOrdemIdadeReversaComparator
+one/digitalinnovation/list/comparators/ComparatorsExampleList.java
+ one.digitalinnovation.list.comparators.ComparatorsExampleList
+one/digitalinnovation/list/comparators/Estudante.java
+ one.digitalinnovation.list.comparators.Estudante
