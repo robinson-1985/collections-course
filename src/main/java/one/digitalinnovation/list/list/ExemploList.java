@@ -1,9 +1,6 @@
 package one.digitalinnovation.list.list;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 public class ExemploList {
 
@@ -20,7 +17,7 @@ public class ExemploList {
 
         System.out.println(nomes);
 
-        nomes.set(2, "Larissa");        // o método recebe um inteiro e um elemento: troca uma posição por outra.
+        nomes.set(2, "Larissa");  // o método recebe um inteiro e um elemento: troca uma posição por outra.
 
         System.out.println(nomes);
 
@@ -38,9 +35,13 @@ public class ExemploList {
 
         System.out.println(nomes);
 
-        String nome = nomes.get(1); // o get é um comando que printa o index que é selecionado.
+        String nome = nomes.get(3); // o get é um comando que printa o index que é selecionado.
 
         System.out.println(nome);
+
+        int posicao = nomes.indexOf("Carlos"); // retorna o indice do elemento que está na lista
+
+        System.out.println(posicao);
 
         int tamanho = nomes.size(); // size: retona quantos elementos temos em nossa lista.
 
@@ -64,6 +65,23 @@ public class ExemploList {
 
         System.out.println(listaEstaVazia);
 
+        for (String nomeDoItem: nomes) {
+
+            System.out.println("--->" + nomeDoItem);
+        }
+
+        Iterator<String> iterator = nomes.iterator();
+
+        while (iterator.hasNext()) {
+
+            System.out.println("----->" + iterator.next());
+        }
+
+        nomes.clear();
+
+        listaEstaVazia = nomes.isEmpty();   // ele retorna simplesmente um booleano;
+
+        System.out.println(listaEstaVazia);
 
 
 
