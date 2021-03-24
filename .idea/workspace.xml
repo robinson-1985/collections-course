@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6cbf4934-f055-4dcb-bc37-ee0a266937cb" name="Default Changelist" comment="ExemploList">
-      <change afterPath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/list/set/ExemploHashSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/list/set/ExemploLinkedHashSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/list/set/ExemploTreeSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/list/maps/ExemploHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/list/maps/ExemploHashTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/list/maps/ExemploTreeMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.bin" afterDir="false" />
@@ -16,7 +16,11 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.7/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/one/digitalinnovation/list/set/ExemploHashSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/one/digitalinnovation/list/set/ExemploHashSet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/one/digitalinnovation/list/set/ExemploLinkedHashSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/one/digitalinnovation/list/set/ExemploLinkedHashSet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/list/set/ExemploHashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/list/set/ExemploHashSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/list/set/ExemploLinkedHashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/list/set/ExemploLinkedHashSet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +52,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="robinson-1985 &lt;https://github.com/robinson-1985&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1qA5JVQpWrjpEuKzY69B13RSwkK" />
@@ -66,7 +75,20 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="Application.ExemploLinkedHashSet">
+  <component name="RunManager" selected="Application.ExemploHashMap">
+    <configuration name="ExemploHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="one.digitalinnovation.list.maps.ExemploHashMap" />
+      <module name="collections-course.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="one.digitalinnovation.list.maps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ExemploHashSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="one.digitalinnovation.list.set.ExemploHashSet" />
       <module name="collections-course.main" />
@@ -93,19 +115,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExemploLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="one.digitalinnovation.queue.ExemploLinkedList" />
-      <module name="collections-course.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="one.digitalinnovation.queue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ExemploLinkedList2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="one.digitalinnovation.list.queue.ExemploLinkedList2" />
       <module name="collections-course.main" />
@@ -119,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExemploVector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="one.digitalinnovation.list.ExemploVector" />
+    <configuration name="ExemploTreeSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="one.digitalinnovation.list.set.ExemploTreeSet" />
       <module name="collections-course.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="one.digitalinnovation.list.*" />
+          <option name="PATTERN" value="one.digitalinnovation.list.set.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExemploHashMap" />
+        <item itemvalue="Application.ExemploTreeSet" />
         <item itemvalue="Application.ExemploLinkedHashSet" />
         <item itemvalue="Application.ExemploHashSet" />
         <item itemvalue="Application.ExemploLinkedList2" />
-        <item itemvalue="Application.ExemploLinkedList" />
-        <item itemvalue="Application.ExemploVector" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +172,7 @@
       <updated>1616509482348</updated>
       <workItem from="1616509483792" duration="3673000" />
       <workItem from="1616530752966" duration="4051000" />
-      <workItem from="1616590541318" duration="3666000" />
+      <workItem from="1616590541318" duration="6129000" />
     </task>
     <task id="LOCAL-00001" summary="ExemploList">
       <created>1616591707234</created>
@@ -179,7 +188,28 @@
       <option name="project" value="LOCAL" />
       <updated>1616591725081</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ExemploList">
+      <created>1616596923741</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1616596923741</updated>
+    </task>
+    <task id="LOCAL-00004" summary="ExemploList">
+      <created>1616596931697</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1616596931697</updated>
+    </task>
+    <task id="LOCAL-00005" summary="ExemploList">
+      <created>1616596943893</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1616596943893</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

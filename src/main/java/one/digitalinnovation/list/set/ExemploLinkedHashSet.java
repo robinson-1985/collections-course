@@ -21,6 +21,7 @@ public class ExemploLinkedHashSet {
 
         // Remove o número do set
         sequenciaNumerica.remove(4);
+
         System.out.println(sequenciaNumerica);
 
         //Retorna a quantidade de itens do set
@@ -28,11 +29,17 @@ public class ExemploLinkedHashSet {
 
         // Navega em todos os itens do iterator
         Iterator<Integer> iterator = sequenciaNumerica.iterator();
+
         while (iterator.hasNext()) {
+
             System.out.println(iterator.next());
+
         }
+
         for (Integer numero: sequenciaNumerica) {
+
             System.out.println(numero);
+
         }
 
         sequenciaNumerica.clear();
