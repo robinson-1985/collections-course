@@ -32,7 +32,7 @@ public class ExemploVector {
         System.out.println(esportes.get(0));
 
         // Navega nos esportes
-        for (String esporte: esportes) {
+        for (String esporte : esportes) {
             System.out.println(esporte);
         }
 

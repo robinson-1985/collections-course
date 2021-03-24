@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cbf4934-f055-4dcb-bc37-ee0a266937cb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/one/digitalinnovation/list/list/ExemploList.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/one/digitalinnovation/list/list/ExemploList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/one/digitalinnovation/list/list/ExemploVetor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/list/list/ExemploList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/list/list/ExemploList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/list/list/ExemploVetor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/list/list/ExemploVector.java" afterDir="false" />
-    </list>
+    <list default="true" id="6cbf4934-f055-4dcb-bc37-ee0a266937cb" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +14,18 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -46,7 +51,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="Application.ExemploList">
+  <component name="RunManager" selected="Application.ExemploVector">
     <configuration name="ExemploList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="one.digitalinnovation.list.list.ExemploList" />
       <module name="collections-course.main" />
@@ -73,15 +78,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -103,6 +106,7 @@
       <updated>1616509482348</updated>
       <workItem from="1616509483792" duration="3673000" />
       <workItem from="1616530752966" duration="4051000" />
+      <workItem from="1616590541318" duration="774000" />
     </task>
     <servers />
   </component>
@@ -119,6 +123,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
