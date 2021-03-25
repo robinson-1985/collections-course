@@ -5,15 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6cbf4934-f055-4dcb-bc37-ee0a266937cb" name="Default Changelist" comment="ExemploList">
-      <change afterPath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/list/comparators/ComparatorsExampleList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/list/comparators/Estudante.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/list/comparators/EstudanteOrdemIdadeReversaComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/list/optionals/ExemploOptional.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/list/optionals/ExemploOptionalEstados.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/list/optionals/ExemploOptionalPrimitivos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/one/digitalinnovation/list/stream/ExemploStreamAPI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
     </list>
@@ -70,7 +74,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="Application.ComparatorsExampleList">
+  <component name="RunManager" selected="Application.ExemploStreamAPI">
     <configuration name="ComparatorsExampleList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="one.digitalinnovation.list.comparators.ComparatorsExampleList" />
       <module name="collections-course.main" />
@@ -84,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExemploHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="one.digitalinnovation.list.maps.ExemploHashMap" />
+    <configuration name="ExemploOptional" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="one.digitalinnovation.list.optionals.ExemploOptional" />
       <module name="collections-course.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="one.digitalinnovation.list.maps.*" />
+          <option name="PATTERN" value="one.digitalinnovation.list.optionals.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExemploHashTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="one.digitalinnovation.list.maps.ExemploHashTable" />
+    <configuration name="ExemploOptionalEstados" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="one.digitalinnovation.list.optionals.ExemploOptionalEstados" />
       <module name="collections-course.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="one.digitalinnovation.list.maps.*" />
+          <option name="PATTERN" value="one.digitalinnovation.list.optionals.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExemploTreeMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="one.digitalinnovation.list.maps.ExemploTreeMap" />
+    <configuration name="ExemploOptionalPrimitivos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="one.digitalinnovation.list.optionals.ExemploOptionalPrimitivos" />
       <module name="collections-course.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="one.digitalinnovation.list.maps.*" />
+          <option name="PATTERN" value="one.digitalinnovation.list.optionals.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExemploTreeSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="one.digitalinnovation.list.set.ExemploTreeSet" />
+    <configuration name="ExemploStreamAPI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="one.digitalinnovation.list.stream.ExemploStreamAPI" />
       <module name="collections-course.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="one.digitalinnovation.list.set.*" />
+          <option name="PATTERN" value="one.digitalinnovation.list.stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExemploStreamAPI" />
+        <item itemvalue="Application.ExemploOptionalEstados" />
+        <item itemvalue="Application.ExemploOptional" />
+        <item itemvalue="Application.ExemploOptionalPrimitivos" />
         <item itemvalue="Application.ComparatorsExampleList" />
-        <item itemvalue="Application.ExemploTreeMap" />
-        <item itemvalue="Application.ExemploHashTable" />
-        <item itemvalue="Application.ExemploHashMap" />
-        <item itemvalue="Application.ExemploTreeSet" />
       </list>
     </recent_temporary>
   </component>
@@ -168,6 +172,8 @@
       <workItem from="1616509483792" duration="3673000" />
       <workItem from="1616530752966" duration="4051000" />
       <workItem from="1616590541318" duration="9386000" />
+      <workItem from="1616645040117" duration="1586000" />
+      <workItem from="1616682266792" duration="5009000" />
     </task>
     <task id="LOCAL-00001" summary="ExemploList">
       <created>1616591707234</created>

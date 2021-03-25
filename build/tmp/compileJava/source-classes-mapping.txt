@@ -1,28 +1,36 @@
-one/digitalinnovation/list/list/ExemploList.java
- one.digitalinnovation.list.list.ExemploList
-one/digitalinnovation/list/list/ExemploArrayList.java
- one.digitalinnovation.list.list.ExemploArrayList
-one/digitalinnovation/list/list/ExemploVector.java
- one.digitalinnovation.list.ExemploVector
-one/digitalinnovation/list/queue/ExemploLinkedList.java
- one.digitalinnovation.queue.ExemploLinkedList
 one/digitalinnovation/list/queue/ExemploLinkedList2.java
  one.digitalinnovation.list.queue.ExemploLinkedList2
-one/digitalinnovation/list/set/ExemploTreeSet.java
- one.digitalinnovation.list.set.ExemploTreeSet
+one/digitalinnovation/list/comparators/ComparatorsExampleList.java
+ one.digitalinnovation.list.comparators.ComparatorsExampleList
+one/digitalinnovation/list/optionals/ExemploOptionalEstados.java
+ one.digitalinnovation.list.optionals.ExemploOptionalEstados
+one/digitalinnovation/list/optionals/ExemploOptional.java
+ one.digitalinnovation.list.optionals.ExemploOptional
+one/digitalinnovation/list/list/ExemploArrayList.java
+ one.digitalinnovation.list.list.ExemploArrayList
+one/digitalinnovation/list/queue/ExemploLinkedList.java
+ one.digitalinnovation.queue.ExemploLinkedList
+one/digitalinnovation/list/list/ExemploVector.java
+ one.digitalinnovation.list.ExemploVector
+one/digitalinnovation/list/comparators/EstudanteOrdemIdadeReversaComparator.java
+ one.digitalinnovation.list.comparators.EstudanteOrdemIdadeReversaComparator
+one/digitalinnovation/list/maps/ExemploHashMap.java
+ one.digitalinnovation.list.maps.ExemploHashMap
+one/digitalinnovation/list/maps/ExemploTreeMap.java
+ one.digitalinnovation.list.maps.ExemploTreeMap
 one/digitalinnovation/list/set/ExemploHashSet.java
  one.digitalinnovation.list.set.ExemploHashSet
 one/digitalinnovation/list/set/ExemploLinkedHashSet.java
  one.digitalinnovation.list.set.ExemploLinkedHashSet
-one/digitalinnovation/list/maps/ExemploHashTable.java
- one.digitalinnovation.list.maps.ExemploHashTable
-one/digitalinnovation/list/maps/ExemploTreeMap.java
- one.digitalinnovation.list.maps.ExemploTreeMap
-one/digitalinnovation/list/maps/ExemploHashMap.java
- one.digitalinnovation.list.maps.ExemploHashMap
-one/digitalinnovation/list/comparators/EstudanteOrdemIdadeReversaComparator.java
- one.digitalinnovation.list.comparators.EstudanteOrdemIdadeReversaComparator
-one/digitalinnovation/list/comparators/ComparatorsExampleList.java
- one.digitalinnovation.list.comparators.ComparatorsExampleList
 one/digitalinnovation/list/comparators/Estudante.java
  one.digitalinnovation.list.comparators.Estudante
+one/digitalinnovation/list/maps/ExemploHashTable.java
+ one.digitalinnovation.list.maps.ExemploHashTable
+one/digitalinnovation/list/set/ExemploTreeSet.java
+ one.digitalinnovation.list.set.ExemploTreeSet
+one/digitalinnovation/list/optionals/ExemploOptionalPrimitivos.java
+ one.digitalinnovation.list.optionals.ExemploOptionalPrimitivos
+one/digitalinnovation/list/list/ExemploList.java
+ one.digitalinnovation.list.list.ExemploList
+one/digitalinnovation/list/stream/ExemploStreamAPI.java
+ one.digitalinnovation.list.stream.ExemploStreamAPI
